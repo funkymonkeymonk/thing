@@ -15,8 +15,8 @@
 * Install postgres
 * Create a 'thing' role as a super user
   * `createuser -sPE thing`
-* Create rails database
-  * `bundle exec rake db:create && bundle exec rake db:schema:load`
+* Prepare the database
+  * `bundle exec rake db:setup`
 
 
 ### Running the tests

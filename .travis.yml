@@ -1,8 +1,6 @@
 sudo: false
 language: ruby
 bundler_args: --without development
-rvm:
-  - 2.1.5
 
 before_install:
   - rvm get stable
